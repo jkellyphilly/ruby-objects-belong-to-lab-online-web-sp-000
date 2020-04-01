@@ -1,10 +1,10 @@
 class Song
 
-  attr_accessor :title
-  attr_reader :artist
+  attr_accessor :title, :artist
+  #attr_reader :artist
 
-  def artist=(artist)
-    @artist = artist
-  end
+  #def artist=(artist)
+  #  @artist = artist
+  #end
 
 end
